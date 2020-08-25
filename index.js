@@ -11,7 +11,7 @@ class Formatter {
     static titleize(string){
 
         let words =string.split(' ');
-        let exceptions =['a','an','the','but','of','by','at','from'];
+        let exceptions =['a','an','the','but','of','by','at','from','for'];
        let  newString="";
         words.forEach(word =>{
             if(words.indexOf(word)===0){
@@ -29,4 +29,4 @@ class Formatter {
 
   }
 }
-  console.log(Formatter.titleize(" this is to test it if but a from yemen "))
+  console.log(Formatter.titleize(" this is a test for osama by ahmed for osamah from yemen "))
