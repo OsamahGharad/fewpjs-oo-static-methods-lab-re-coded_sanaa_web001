@@ -29,4 +29,4 @@ class Formatter {
 
   }
 }
-  console.log(Formatter.titleize(" this is a test for osama by ahmed for osamah from yemen "))
+  // console.log(Formatter.titleize(" this is a test for capitalizeing all but an exception not  "))
